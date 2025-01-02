@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark-mode {
+  background-color: #0f1724;
+  color: white;
+  font-family: sans-serif;
+}
+h1 {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(136, 100, 202, 1) 0%,
+    rgba(93, 209, 226, 1) 100%,
+    rgba(45, 109, 122, 1) 100%
+  );
+}
+
+* {
+  @apply p-0 m-0;
+}
+
+
+.border-gradient {
+  position: relative;
+  border-radius: 50%;
+  
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(93, 5, 255, 1) 0%,
+    rgba(93, 21, 253, 1) 8%,
+    rgba(93, 209, 226, 1) 100%,
+    rgba(45, 109, 122, 1) 100%
+  );
+}
