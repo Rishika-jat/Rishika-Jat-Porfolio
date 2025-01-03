@@ -1,11 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+* {
+  @apply p-0 m-0;
+}
+
 
 .dark-mode {
   background-color: #0f1724;
   color: white;
   font-family: sans-serif;
+}
+.light-mode {
+  background-color: white;
+  color: rgb(88, 87, 87);
+}
+
+.circular-border-image {
+  display: block;
+
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Dark Mode Intro Section */
+.light-mode-HeadColor {
+  color: #da918a;
+}
+.icon {
+  color: white;
 }
 h1 {
   background: linear-gradient(
@@ -16,16 +40,14 @@ h1 {
     rgba(45, 109, 122, 1) 100%
   );
 }
-
-* {
-  @apply p-0 m-0;
-}
-
-
 .border-gradient {
-  position: relative;
+  border: 1px solid rgba(5, 122, 239, 0.323);
   border-radius: 50%;
-  
+}
+.image-container,
+.circle-fill {
+  display: inline-block;
+  padding: 5px;
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
@@ -34,4 +56,79 @@ h1 {
     rgba(93, 209, 226, 1) 100%,
     rgba(45, 109, 122, 1) 100%
   );
+ 
+ 
 }
+/* Light Mode Intro Section */
+.light-heading {
+  color: #da918a;
+}
+
+
+
+.light-border-gradient {
+  border: 1px solid #da918a;
+  border-radius: 50%;
+}
+
+
+
+.light-image-container,
+.light-circle-fill {
+  display: inline-block;
+  padding: 5px;
+  background-color: #da918a;
+}
+
+/* 
+Responsive Intro Section */
+@media (max-width: 500px) {
+  .hero-section {
+    flex-wrap: wrap;
+    margin: 0 10px;
+    flex-direction: column-reverse;
+    padding: 0;
+    gap: 30px;
+  }
+  .intro-section {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .intro-section h1 {
+    font-size: 40px;
+  }
+  .intro-section h1 + p {
+    font-size: 30px;
+  }
+  .My-image {
+    width: 250px;
+    height: 250px;
+  }
+  .first-circle-fill {
+    width: 270px;
+    height: 270px;
+  }
+  .second-circle-border {
+    display: none;
+  }
+  .circle-fill,
+  .light-circle-fill {
+    display: none;
+  }
+}
+@media (max-width: 800px) and (min-width: 500px) {
+  .circle-fill,
+  .light-circle-fill {
+    top: -250px;
+    left: 100px;
+  }
+  .second-circle-border {
+    left: 300px;
+  }
+  .profile-div {
+    margin-left: 150px;
+    margin-top: -50px;
+  }
+}
+
