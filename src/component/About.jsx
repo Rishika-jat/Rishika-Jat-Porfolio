@@ -21,23 +21,23 @@ const handleExperience =()=>{
 
   return (
     <>
-      <div className='flex justify-center items-center flex-col py-16 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap gap-20'>
+      <div className='flex justify-center items-center flex-col py-16 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap gap-20  about-section-main'>
       <div className='flex justify-center items-center flex-col'>
       <h1 className={`text-7xl bg-clip-text ${changeMode ? 'text-transparent dark-gradient-text' : 'light-heading'}`}>About Me</h1>
       <p className=' text-xl'>My Introduction</p>
       </div>
-      <div className='flex gap-20'>
+      <div className='flex gap-20 About-section'>
         <div className={`border-purple-200 w-64 h-64  flex items-center justify-center rounded-xl relative first-circle-fill ${changeMode?'image-container':'light-image-container'}`}>
             <img src="src\assets\Rishik.jpeg" alt="" width={255} className='rounded-xl'/>
         </div>
-        <div className='flex flex-col gap-8'>
-            <div className='flex gap-10'>
+        <div className='flex flex-col gap-8 about-content'>
+            <div className='flex gap-10 about-btn'>
             <button onClick={()=>handleAboutMe()} className={`flex flex-col w-28   gap-1 items-center justify-center rounded-xl px-5 py-3 ${changeMode?'border-gradient text-white bg-transparent':'bg-white text-black border-solid border-gray-400 '} `}><IoPersonCircleOutline className='text-xl'/><span>About Me</span></button>
                 <button onClick={()=>handleEducation()} className={`flex flex-col w-28    gap-1 items-center justify-center rounded-xl px-5 py-3 ${changeMode?'border-gradient bg-transparent text-white':'bg-white text-black border-solid border-gray-400 '} `}><AiOutlineRead className='text-xl'/><span>Education</span></button>
                 <button onClick={()=>handleExperience()} className={`flex flex-col w-28   gap-1 items-center justify-center rounded-xl px-5 py-3 ${changeMode?'border-gradient text-white bg-transparent':'bg-white text-black border-solid border-gray-400 '} `}><IoRibbonOutline className='text-xl'/><span>Experience</span></button>
             </div>
             <div>
-                <p className='w-96'>{content}</p>
+                <p className='w-96 about-para'>{content}</p>
             </div>
             <div className={`${changeMode?'image-container':'light-image-container'} w-fit rounded-3xl text-white`}>
         <button  className='bg-transparent border-none px-3 py-2 '>Contact Me</button>
