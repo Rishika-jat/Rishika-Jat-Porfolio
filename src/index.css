@@ -5,7 +5,9 @@
   @apply p-0 m-0;
 }
 
-
+body{
+  line-height: 20px;
+}
 .dark-mode {
   background-color: #0f1724;
   color: white;
@@ -14,6 +16,7 @@
 .light-mode {
   background-color: white;
   color: rgb(88, 87, 87);
+  
 }
 
 .circular-border-image {
@@ -42,7 +45,7 @@ h1 {
 }
 .border-gradient {
   border: 1px solid rgba(5, 122, 239, 0.323);
-  border-radius: 50%;
+  
 }
 .image-container,
 .circle-fill {
