@@ -3,6 +3,7 @@ import "./index.css"
 import { FaLinkedinIn,FaGithub  } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 import Intro from './component/Intro';
+import Skills from "./component/Skills";
 import ThemeToggle from './component/ThemeToggle';
 import About from './component/About';
 import { useDispatch, useSelector } from 'react-redux';
@@ -21,6 +22,7 @@ const App = () => {
     <ThemeToggle/>
   <Intro/>
  <About/>
+ <Skills/>
     </>
   )
 }
