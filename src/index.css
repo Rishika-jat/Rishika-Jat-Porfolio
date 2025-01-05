@@ -82,6 +82,12 @@ h1 {
   padding: 5px;
   background-color: #da918a;
 }
+.dark-active-button {
+  border: 2px solid rgb(0, 202, 243); /* Example style: green border */
+}
+.light-active-button{
+  border: 2px solid #da918a;
+}
 
 /* 
 Responsive Intro Section */
