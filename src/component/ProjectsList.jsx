@@ -55,7 +55,7 @@ export const ProjectsList = [
   
   {
     name:"E-Commerce",
-    description:"The E-commerce Front-End Project  showcasing products with responsive design and filter options, shopping cart, and aWishlist. It offers basic user authentication enhancing shopping experience.💻",
+    description:"The E-commerce  Project showcasing products with responsive design and filter options, shopping cart, and Wishlist. It offers basic user authentication enhancing shopping experience.",
     technologies : [
        {icon:FaReact, label:"ReactJS"},
        {icon:RiTailwindCssFill, label:"tailwindCSS"},

@@ -44,7 +44,7 @@ const Intro = () => {
     <div className='profile-div'>
     <div className={`rounded-full h-28 w-28 relative top-20 ${changeMode?' circle-fill':'light-circle-fill'}`}></div>
       <div className={`border-purple-200 h-80 w-80  flex items-center justify-center rounded-full relative first-circle-fill ${changeMode?'image-container':'light-image-container'}`}>
-        <img src="src\assets\Rishik.jpeg" alt="" width={300} height={300} className='circular-border-image rounded-full My-image'/>
+        <img src="src\assets\My.jpeg" alt="" width={300} height={300} className='circular-border-image rounded-full My-image'/>
       </div>
       <div className={`border-solid rounded-full w-44 h-44 relative bottom-28 left-48  second-circle-border ${changeMode?'border-gradient':'light-border-gradient'}`}></div>
     </div>

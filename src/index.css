@@ -104,7 +104,7 @@ Responsive Intro Section */
     align-items: center;
     justify-content: center;
   }
-  .intro-section h1, .about-section-main h1, .skill-section h1 {
+  .intro-section h1, .about-section-main h1, .skill-section h1 , .project-section>h1{
     font-size: 40px;
   }
   .intro-section h1 + p {
@@ -140,6 +140,23 @@ Responsive Intro Section */
   }.about-para{
     width: 300px;
   }
+  .A-Project-main{
+    flex-direction: column;
+    margin-left: -30px;
+  }
+  .A-Project-main img{
+    width: 300px;
+   
+  
+  }
+  .projects-container{
+    width: 310px;
+    gap:0;
+  }
+.project-section{
+  margin-top: 100px;
+}
+ 
 }
 @media (max-width: 800px) and (min-width: 500px) {
   .circle-fill,
@@ -162,7 +179,15 @@ gap: 20px;
     justify-content: center;
     width: 300px;
   
-  }
- 
+  
+ }
+ .projects-container{
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+ }
+  .A-Project-main{
+  flex-direction: column;
+}
 }
 
