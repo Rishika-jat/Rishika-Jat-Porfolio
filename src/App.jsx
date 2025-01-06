@@ -8,6 +8,7 @@ import ThemeToggle from './component/ThemeToggle';
 import About from './component/About';
 import { useDispatch, useSelector } from 'react-redux';
 import Projects from './component/Projects';
+import Contact from './component/Contact';
   
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
  <About/>
  <Skills/>
  <Projects/>
+ <Contact/>
     </>
   )
 }

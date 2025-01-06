@@ -104,7 +104,7 @@ Responsive Intro Section */
     align-items: center;
     justify-content: center;
   }
-  .intro-section h1, .about-section-main h1, .skill-section h1 , .project-section>h1{
+  .intro-section h1, .about-section-main h1, .skill-section h1 , .project-section>h1, .contact-section h1{
     font-size: 40px;
   }
   .intro-section h1 + p {
@@ -156,6 +156,14 @@ Responsive Intro Section */
 .project-section{
   margin-top: 100px;
 }
+.contact-main{
+  flex-direction: column;
+ gap: 20px;
+}
+.contact-section{
+  margin-top: 100px;
+}
+
  
 }
 @media (max-width: 800px) and (min-width: 500px) {
@@ -189,5 +197,9 @@ gap: 20px;
   .A-Project-main{
   flex-direction: column;
 }
+.contact-main{
+  flex-direction: column;
+}
+
 }
 
