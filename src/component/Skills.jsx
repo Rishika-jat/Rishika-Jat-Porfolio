@@ -21,7 +21,7 @@ const imagePaths=[
 
   return (
     <>
-      <div className="flex justify-around items-center py-32 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section">
+     
         <div className="skill-section flex flex-col gap-20 items-center justify-center">
           <h1
             className={`text-7xl bg-clip-text ${
@@ -36,7 +36,7 @@ const imagePaths=[
           {imagePaths.map((src, index) => ( <SkillComponent key={index} image={src} />))}
           </div>
         </div>
-      </div>
+    
     </>
   );
 };

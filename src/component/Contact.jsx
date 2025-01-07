@@ -6,8 +6,8 @@ const Contact = () => {
   const changeMode = useSelector((state) => state.theme.changeMode);
   return (
     <>
-      <div className="flex justify-around items-center py-14 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section">
-        <div className="contact-section flex flex-col gap-20 items-center justify-center ">
+     
+        <div className="contact-section flex flex-col gap-5 items-center justify-center ">
           <h1
             className={`text-7xl bg-clip-text pb-5 ${
               changeMode
@@ -42,12 +42,12 @@ const Contact = () => {
             </div>
         
               
-              <div className=" p-8 rounded-lg  w-full max-w-md">
+              <div className=" p-8 rounded-lg  w-full max-w-md contact-form-container ">
                 
                 <h2 className="text-2xl font-bold mb-6 text-center">
                  Send A Message
                 </h2>
-                <form>
+                <form className="contact-form">
                   
                   <div className="mb-4">
                     
@@ -105,7 +105,7 @@ const Contact = () => {
           
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

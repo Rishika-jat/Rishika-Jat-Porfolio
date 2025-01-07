@@ -152,19 +152,46 @@ Responsive Intro Section */
   .projects-container{
     width: 310px;
     gap:0;
+   
   }
 .project-section{
   margin-top: 100px;
+  margin: 0;
+  padding: 0;
 }
 .contact-main{
   flex-direction: column;
  gap: 20px;
+ justify-content: center;
+ align-items: center;
 }
 .contact-section{
   margin-top: 100px;
 }
+.contact-main{
+  padding: 0px;
+}
+.about-content button{
+  width: 100px;
+}
+.contact-form input , .contact-form textarea{
+  width: 250px;
+}
+.contact-form{
+  width: 300px;
+}
+.contact-form-container{
+  width: 300px;
+  padding: 0 0;
+}
+.contact-section{
+  justify-content: center;
+  align-items: center;
+}
+.right-social-icons{
+  margin-top: -50px;
+}
 
- 
 }
 @media (max-width: 800px) and (min-width: 500px) {
   .circle-fill,
@@ -203,3 +230,12 @@ gap: 20px;
 
 }
 
+/* index.css */
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.dark-mode .active {
+  border-bottom-color: #fff;
+}

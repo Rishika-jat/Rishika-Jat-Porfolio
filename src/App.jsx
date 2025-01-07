@@ -9,7 +9,8 @@ import About from './component/About';
 import { useDispatch, useSelector } from 'react-redux';
 import Projects from './component/Projects';
 import Contact from './component/Contact';
-  
+
+  import HomePage from './Pages/HomePage';
 
 const App = () => {
   const dispatch = useDispatch(); 
@@ -21,12 +22,11 @@ const App = () => {
 
   return (
     <>
-    <ThemeToggle/>
-  <Intro/>
- <About/>
- <Skills/>
- <Projects/>
- <Contact/>
+   <div className=''>
+   <HomePage/>
+   </div>
+    {/* <ThemeToggle/> */}
+
     </>
   )
 }

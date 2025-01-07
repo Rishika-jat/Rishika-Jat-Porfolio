@@ -34,14 +34,14 @@ const About = () => {
 
   return (
     <>
-      <div className='flex justify-center items-center flex-col py-16 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap gap-20 about-section-main'>
+      
         <div className='flex justify-center items-center flex-col'>
           <h1 className={`text-7xl bg-clip-text ${changeMode ? 'text-transparent dark-gradient-text' : 'light-heading'}`}>About Me</h1>
           <p className='text-xl'>My Introduction</p>
         </div>
         <div className='flex gap-20 About-section'>
-          <div className={`border-purple-200 w-64 h-64 flex items-center justify-center rounded-xl relative first-circle-fill ${changeMode ? 'image-container' : 'light-image-container'}`}>
-            <img src="src/assets/Rishik.jpeg" alt="" width={255} className='rounded-xl' />
+          <div className={`border-purple-200 w-52 h-72 flex items-center justify-center rounded-xl relative first-circle-fill ${changeMode ? 'image-container' : 'light-image-container'}`}>
+            <img src="src\assets\My2.jpg" alt="" width={190} className='rounded-xl ml-2 py-1' />
           </div>
           <div className='flex flex-col gap-8 about-content'>
             <div className='flex gap-10 about-btn'>
@@ -63,7 +63,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      
     </>
   );
 };

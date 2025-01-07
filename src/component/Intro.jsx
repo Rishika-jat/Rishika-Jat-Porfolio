@@ -21,7 +21,7 @@ const Intro = () => {
   
     <>
    
-    <div className='flex justify-around items-center py-16 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section'>
+   
     
     <div className='flex flex-col gap-4 intro-section'>
       <h1 className={`text-7xl bg-clip-text ${changeMode ? 'text-transparent dark-gradient-text' : 'light-heading'}`}>Hi, I’m Rishika</h1>
@@ -49,7 +49,7 @@ const Intro = () => {
       <div className={`border-solid rounded-full w-44 h-44 relative bottom-28 left-48  second-circle-border ${changeMode?'border-gradient':'light-border-gradient'}`}></div>
     </div>
     
-  </div>
+  
   </>
   )
 }
