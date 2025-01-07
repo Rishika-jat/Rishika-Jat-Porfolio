@@ -88,7 +88,7 @@ const HomePage = () => {
       <div className="w-full md:w-auto flex justify-center md:justify-end right-social-icons">
         <ul className="flex items-center gap-5 list-none">
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/rishika-jat"
             target="_blank"
             rel="noopener noreferrer"
             className={`no-underline ${
@@ -100,7 +100,7 @@ const HomePage = () => {
             </li>
           </a>
           <a
-            href="https://github.com"
+            href="https://github.com/Rishika-jat"
             target="_blank"
             rel="noopener noreferrer"
             className={`no-underline ${

@@ -28,10 +28,11 @@ const Intro = () => {
       <p className=' text-5xl'>Frontend developer</p>
       <p className=' w-2/3'>"Welcome to my creative corner! I’m Rishika, a passionate Frontend Developer with a knack for crafting stunning and intuitive web experiences. Dive in to discover my journey, projects, and the magic I bring to the digital world."</p>
       <div className='flex gap-3'>
-      <div className={`h-12 w-12 flex items-center justify-center rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black '}`}><button className='border-0 bg-transparent flex items-center justify-center'><FaLinkedinIn  className='icon text-xl'/></button></div>
-      <div className={`h-12 w-12 flex items-center justify-center rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black '}`}><button className='border-0 bg-transparent flex items-center justify-center'><FaGithub  className='icon text-xl'/></button></div>
-      <div className={`h-12 w-12 flex items-center justify-center  rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black'}`}><button className='border-0 bg-transparent flex items-center justify-center'><SiNetlify  className='icon text-2xl'/></button></div>
-      <div className={`h-12 w-12 flex items-center justify-center rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black '}`}><button className='border-0 bg-transparent flex items-center justify-center'><FaLinkedinIn  className='icon text-xl'/></button></div>
+      
+      <a href="https://www.linkedin.com/in/rishika-jat/" className='no-underline' target="_blank"><div className={`h-12 w-12 flex items-center justify-center rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black '}`}><button className='border-0 bg-transparent flex items-center justify-center'><FaLinkedinIn  className='icon text-xl'/></button></div></a>
+      <a href="https://github.com/Rishika-jat" target="_blank"><div className={`h-12 w-12 flex items-center justify-center rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black '}`}><button className='border-0 bg-transparent flex items-center justify-center'><FaGithub  className='icon text-xl'/></button></div></a>
+     <a href="https://app.netlify.com/teams/rishika-jat/sites" target="_blank"> <div className={`h-12 w-12 flex items-center justify-center  rounded-full ${changeMode?'border-gradient  bg-transparent ':'bg-black'}`}><button className='border-0 bg-transparent flex items-center justify-center'><SiNetlify  className='icon text-2xl'/></button></div></a>
+      
      
      
     </div>

@@ -26,7 +26,7 @@ export const ProjectsList = [
     ],
     photo: "src/assets/Projects/Add to cart.png",
     github: "https://github.com/rishika-jat/add-to-cart",
-    liveDemo: "https://yourusername.github.io/add-to-cart"
+    liveDemo: "https://rishika-jat-add-to-cart.netlify.app/"
   },
   {
     name:"IT Solution Website",
@@ -49,8 +49,8 @@ export const ProjectsList = [
         {icon:FaJs, label:"JavaScript"}
     ],
     photo:"src/assets/Projects/ageCalculator.png",
-    github:"https://github.com/Rishika-jat/IT-Solution-Website",
-    liveDemo:"https://rishika-bootstrap-demo-website.netlify.app/"
+    github:"https://github.com/Rishika-jat/Age-Calculator",
+    liveDemo:"https://rishika-jat-age-calculator.netlify.app/"
   },
   
   {

@@ -59,7 +59,10 @@ const About = () => {
               <p className='w-96 about-para'>{content}</p>
             </div>
             <div className={`${changeMode ? 'image-container' : 'light-image-container'} w-fit rounded-3xl text-white`}>
-              <button className='bg-transparent border-none px-3 py-2'>Contact Me</button>
+            <a href="mailto:rishikajat03@gmail.com">
+  <button className='bg-transparent border-none px-3 py-2'>Contact Me</button>
+</a>
+
             </div>
           </div>
         </div>
