@@ -1,55 +1,3 @@
-// import transport from "../config/nodemailer.js";
-// import dotenv from "dotenv";
-// dotenv.config({path:'./config/config.env'})
-// const sendEmail = (req, res) =>{
-//     const {name,email,message} = req.body;
-
-//     const mailOptions ={
-//         from:email,
-//         to:process.env.EMAIL_USER,
-//         subject:`Mail from ${name}`,
-//         text:message
-//     }
-//     transport.sendEmail(mailOptions,(error)=>{
-//         if(error){
-//             return res.status(500).send({message:'Fail'});
-//         }else{
-//             return res.status(200)({message:'Success'});
-//         }
-//     })
-// }
-
-// export default sendEmail;
-
-
-
-
-// import transport from "../config/nodemailer.js";
-
-// const sendEmail = (req, res) => {
-//     const { name, email, message } = req.body;
-
-//     const mailOptions = {
-//         from: email,
-//         replyTo: email,
-//         to: "rishikajat03@gmail.com",
-
-//         subject: `Mail from ${name}`,
-//         text: message,
-//     };
-
-//     transport.sendMail(mailOptions, (error) => {
-//         if (error) {
-//             return res.status(500).send({ message: 'Fail', error: error.message });
-//         } else {
-//             return res.status(200).send({ message: 'Email sent successfully' });
-//         }
-//     });
-// };
-
-// export default sendEmail;
-
-
 import transport from "../config/nodemailer.js";
 
 const sendEmail = (req, res) => {
@@ -83,7 +31,7 @@ const sendEmail = (req, res) => {
             from: "rishikajat03@gmail.com",  // Your email as the sender
             to: email,  // User's email as the recipient
             subject: `Message Received: ${name}`,
-            text: `Hi ${name},\n\nWe have successfully received your message. Our team will get back to you shortly.\n\nMessage:\n"${message}"\n\nThank you!`,
+            text: `Hi ${name},\n\nI have successfully received your message. I will get back to you shortly.\n\nMessage:\n"${message}"\n\nThank you!`,
         };
     
         transport.sendMail(mailOptionsToUser, (error2, info2) => {
