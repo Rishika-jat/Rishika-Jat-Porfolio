@@ -8,12 +8,13 @@ const app = express();
 app.use(express.json());
 dotenv.config({path:'./config/config.env'})
 
-app.use(cors({
-    origin:[process.env.FRONTEND_URL],
-    methods: ["GET", "POST"], // Allowed HTTP methods
-    credentials: true,
+// app.use(cors({
+//     origin:[process.env.FRONTEND_URL],
+//     methods: ["GET", "POST"], // Allowed HTTP methods
+//     credentials: true,
    
-}))
+// }))
+app.use(cors())
 app.use('/api', emailRoutes);
 app.use(bodyParser.json());
 app.use(express.urlencoded({extended:true}));
