@@ -12,7 +12,7 @@ export const ProjectsList = [
       { icon: FaCss3Alt, label: "CSS3" },
       { icon: FaJs, label: "JavaScript" }
     ],
-    photo: "../../public/Todolist.png",
+    photo: "/Todolist.png",
     github: "https://github.com/Rishika-jat/To-Do-List",
     liveDemo: "https://rishika-jat-to-do-list.netlify.app/"
   },
