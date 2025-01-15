@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs,FaBootstrap ,FaReact} from 'react-icons/fa';
 import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import Todolist from "../assets/Projects/Todolist.png";
+import Todolist from "../../public/Todolist.png";
 
 export const ProjectsList = [
   {
