@@ -41,7 +41,7 @@ const About = () => {
         </div>
         <div className='flex gap-20 About-section'>
           <div className={`border-purple-200 w-52 h-72 flex items-center justify-center rounded-xl relative first-circle-fill ${changeMode ? 'image-container' : 'light-image-container'}`}>
-            <img src="src\assets\My2.jpg" alt="" width={190} className='rounded-xl ml-2 py-1' />
+            <img src="\My2.jpg" alt="" width={190} className='rounded-xl ml-2 py-1' />
           </div>
           <div className='flex flex-col gap-8 about-content'>
             <div className='flex gap-10 about-btn'>

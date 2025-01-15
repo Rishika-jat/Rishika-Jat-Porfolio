@@ -24,7 +24,7 @@ export const ProjectsList = [
       { icon: FaCss3Alt, label: "CSS3" },
       { icon: FaJs, label: "JavaScript" }
     ],
-    photo: "src/assets/Projects/Add to cart.png",
+    photo: "/Add to cart.png",
     github: "https://github.com/rishika-jat/add-to-cart",
     liveDemo: "https://rishika-jat-add-to-cart.netlify.app/"
   },
@@ -36,7 +36,7 @@ export const ProjectsList = [
         {icon:FaCss3Alt, label:"CSS3"},
         {icon:FaBootstrap, label:"Bootstrap"}
     ],
-    photo:"src/assets/Projects/Boostrap_website.png",
+    photo:"/Boostrap_website.png",
     github:"https://github.com/Rishika-jat/IT-Solution-Website",
     liveDemo:"https://rishika-bootstrap-demo-website.netlify.app/"
   },
@@ -48,7 +48,7 @@ export const ProjectsList = [
         {icon:FaCss3Alt, label:"CSS3"},
         {icon:FaJs, label:"JavaScript"}
     ],
-    photo:"src/assets/Projects/ageCalculator.png",
+    photo:"/ageCalculator.png",
     github:"https://github.com/Rishika-jat/Age-Calculator",
     liveDemo:"https://rishika-jat-age-calculator.netlify.app/"
   },
@@ -61,7 +61,7 @@ export const ProjectsList = [
        {icon:RiTailwindCssFill, label:"tailwindCSS"},
        {icon:SiRedux, label:"Redux"}
     ],
-    photo:"src/assets/Projects/Ecommerce.png",
+    photo:"/Ecommerce.png",
     github:"https://github.com/Rishika-jat/Ecommerce",
     liveDemo:"https://rishika-jat-ecommerce-web.netlify.app/"
   }

@@ -4,18 +4,18 @@ import SkillComponent from "./SkillComponent";
 const Skills = () => {
   const changeMode = useSelector((state) => state.theme.changeMode);
 const imagePaths=[
-  'src/assets/html-5.png',
-  'src/assets/CSS-logo.png',
-  'src/assets/js.png',
-  'src/assets/react-logo.png',
-  'src/assets/what-is-bootstrap-removebg-preview.png',
-  'src/assets/TailwindCSS.png',
-  'src/assets/mysql-com-icon.avif',
-  'src/assets/git.png',
-  '/src/assets/github (2).png',
-  'src/assets/redux-logo.png',
-  'src/assets/java (2).png',
-  'src/assets/wordpress.png',
+  '/html-5.png',
+  '/CSS-logo.png',
+  '/js.png',
+  '/react-logo.png',
+  '/what-is-bootstrap-removebg-preview.png',
+  '/TailwindCSS.png',
+  '/mysql-com-icon.avif',
+  '/git.png',
+  '/github (2).png',
+  '/redux-logo.png',
+  '/java (2).png',
+  '/wordpress.png',
 
 ]
 

@@ -102,7 +102,7 @@ const Intro = () => {
           }`}
         >
           <img
-            src="src\assets\My.jpeg"
+            src="\My.jpeg"
             alt=""
             width={300}
             height={300}
