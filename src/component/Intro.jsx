@@ -110,7 +110,7 @@ const Intro = () => {
           />
         </div>
         <div
-          className={`circle-2 border-solid rounded-full w-44 h-44 relative bottom-28 left-48  second-circle-border ${
+          className={`circle-2 border-solid rounded-full w-44 h-44 relative bottom-28 left-48  second-circle-border circle-2 ${
             changeMode ? "border-gradient" : "light-border-gradient"
           }`}
         ></div>
