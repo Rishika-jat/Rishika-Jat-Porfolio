@@ -1,7 +1,7 @@
 import { FaHtml5, FaCss3Alt, FaJs,FaBootstrap ,FaReact} from 'react-icons/fa';
 import { SiRedux } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
-import Todolist from "../../public/Todolist.png";
+
 
 export const ProjectsList = [
   {
@@ -12,7 +12,7 @@ export const ProjectsList = [
       { icon: FaCss3Alt, label: "CSS3" },
       { icon: FaJs, label: "JavaScript" }
     ],
-    photo: {Todolist},
+    photo: "../../public/Todolist.png",
     github: "https://github.com/Rishika-jat/To-Do-List",
     liveDemo: "https://rishika-jat-to-do-list.netlify.app/"
   },
