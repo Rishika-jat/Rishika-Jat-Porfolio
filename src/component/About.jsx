@@ -35,15 +35,15 @@ const About = () => {
   return (
     <>
       
-        <div className='flex justify-center items-center flex-col'>
+        <div className='flex justify-center items-center flex-col '>
           <h1 className={`text-7xl bg-clip-text ${changeMode ? 'text-transparent dark-gradient-text' : 'light-heading'}`}>About Me</h1>
           <p className='text-xl'>My Introduction</p>
         </div>
         <div className='flex gap-20 About-section'>
-          <div className={`border-purple-200 w-52 h-72 flex items-center justify-center rounded-xl relative first-circle-fill ${changeMode ? 'image-container' : 'light-image-container'}`}>
+          <div className={`border-purple-200 w-52 h-72 flex items-center justify-center rounded-xl relative first-circle-fill my-img ${changeMode ? 'image-container' : 'light-image-container'}`}>
             <img src="\My2.jpg" alt="" width={190} className='rounded-xl ml-2 py-1' />
           </div>
-          <div className='flex flex-col gap-8 about-content'>
+          <div className='flex flex-col gap-8 about-content '>
             <div className='flex gap-10 about-btn'>
               <button onClick={handleAboutMe} className={`flex flex-col w-28 gap-1 items-center justify-center rounded-xl px-5 py-3 ${changeMode ? 'border-gradient text-white bg-transparent' : 'bg-white text-black border-solid border-gray-400'} ${getActiveClassName('aboutMe')}`}>
                 <IoPersonCircleOutline className='text-xl' /><span>About Me</span>

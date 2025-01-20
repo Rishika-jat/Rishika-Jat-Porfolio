@@ -25,7 +25,7 @@ const Intro = () => {
         >
           Hi, I’m Rishika
         </h1>
-        <p className=" text-5xl">Frontend developer</p>
+        <p className=" text-5xl">Frontend developer!</p>
         <p className=" w-2/3">
           "Welcome to my creative corner! I’m Rishika, a passionate Frontend
           Developer with a knack for crafting stunning and intuitive web
@@ -35,12 +35,12 @@ const Intro = () => {
         <div className="flex gap-3">
           <a
             href="https://www.linkedin.com/in/rishika-jat/"
-            className="no-underline"
+            className="no-underline "
             target="_blank"
           >
             <div
-              className={`h-12 w-12 flex items-center justify-center rounded-full ${
-                changeMode ? "border-gradient  bg-transparent " : "bg-black "
+              className={`h-12 w-12 flex items-center justify-center rounded-full transition-transform duration-300 ease-in-out transform hover:scale-95 hover:border-2  ${
+                changeMode ? "border-gradient  bg-transparent " : "bg-black"
               }`}
             >
               <button className="border-0 bg-transparent flex items-center justify-center">
@@ -50,7 +50,7 @@ const Intro = () => {
           </a>
           <a href="https://github.com/Rishika-jat" target="_blank">
             <div
-              className={`h-12 w-12 flex items-center justify-center rounded-full ${
+              className={`h-12 w-12 flex items-center justify-center rounded-full transition-transform duration-300 ease-in-out transform hover:scale-95 hover:border-2 ${
                 changeMode ? "border-gradient  bg-transparent " : "bg-black "
               }`}
             >
@@ -65,7 +65,7 @@ const Intro = () => {
           >
             {" "}
             <div
-              className={`h-12 w-12 flex items-center justify-center  rounded-full ${
+              className={`h-12 w-12 flex items-center justify-center  rounded-full transition-transform duration-300 ease-in-out transform hover:scale-95 hover:border-2  ${
                 changeMode ? "border-gradient  bg-transparent " : "bg-black"
               }`}
             >

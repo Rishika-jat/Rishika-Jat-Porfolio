@@ -22,7 +22,7 @@ const imagePaths=[
   return (
     <>
      
-        <div className="skill-section flex flex-col gap-20 items-center justify-center">
+        <div className="skill-section flex flex-col gap-20 items-center justify-center ">
           <h1
             className={`text-7xl bg-clip-text ${
               changeMode

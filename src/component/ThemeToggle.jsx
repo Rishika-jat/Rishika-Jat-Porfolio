@@ -9,8 +9,15 @@ const ThemeToggle = () => {
     const changeMode = useSelector((state)=> state.theme.changeMode);
 
   return (
-   <button className='bg-transparent border-none' onClick={()=>dispatch(toggleTheme())}>
-      <MdLightMode className={`text-xl ${changeMode?'text-white':'text-black'}`}/>
+   <button className='bg-transparent border-none flex items-center justify-center gap-4 font-mono'>
+      <MdLightMode className={`text-xl ${changeMode?'text-white':'text-black'}`}  onClick={()=>dispatch(toggleTheme())}/>
+      <h1
+          className={`text-xl bg-clip-text hidden ${
+            changeMode ? "text-transparent dark-gradient-text" : "light-heading"
+          }`}
+        >
+         RISHIKA
+        </h1>
       </button>  
   )
 }

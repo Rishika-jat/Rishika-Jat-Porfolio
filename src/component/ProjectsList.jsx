@@ -64,5 +64,27 @@ export const ProjectsList = [
     photo:"/Ecommerce.png",
     github:"https://github.com/Rishika-jat/Ecommerce",
     liveDemo:"https://rishika-jat-ecommerce-web.netlify.app/"
+  },
+  {
+    name:"Weather App",
+    description:"Weather App it features reusable UI components, real-time weather updates via Fetch API, and location-based highlights. You can check out a detailed 24-hour forecast and a 7-day forecast. The app uses Context API for seamless state management and is fully responsive, ensuring it works on all devices.",
+    technologies:[
+      {icon:FaReact, label:"ReactJS"},
+       {icon:RiTailwindCssFill, label:"tailwindCSS"},
+    ],
+    photo:"/Weather App.png",
+    github:"https://github.com/Rishika-jat/Weather-App",
+    liveDemo:"https://rishika-jat-weather-app.netlify.app/"
+  },
+  {
+    name:"Youtube Clone",
+    description:"CSS. This project replicates the look and feel of YouTube's interface, featuring a responsive design that adapts seamlessly to different devices.",
+    technologies:[
+      {icon:FaHtml5, label:"HTML5"},
+      {icon:FaCss3Alt, label:"CSS3"},
+    ],
+    photo:"/YoutubeClone.png",
+    github:"https://github.com/Rishika-jat/Youtube-Clone",
+    liveDemo:"https://rishika-jat-youtube-clone.netlify.app/"
   }
 ];

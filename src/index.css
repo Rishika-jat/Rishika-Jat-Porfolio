@@ -58,6 +58,19 @@ h1 {
     rgba(45, 109, 122, 1) 100%
   );
 }
+.image-container:hover {
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(93, 5, 255, 1) 0%,
+    rgba(93, 21, 253, 1) 8%,
+    rgba(93, 209, 226, 1) 100%,
+    rgba(45, 109, 122, 1) 100%
+    
+   
+  );
+}
+
 /* Light Mode Intro Section */
 .light-heading {
   color: #da918a;
@@ -81,6 +94,10 @@ h1 {
   border: 2px solid #da918a;
 }
 
+footer{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* 
 Responsive Intro Section */
 @media (max-width: 500px) {
@@ -101,8 +118,12 @@ Responsive Intro Section */
   .skill-section h1,
   .project-section > h1,
   .contact-section h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
+  .contact-section{
+    margin: 5px 10px;
+  }
+ 
   .intro-section h1 + p {
     font-size: 30px;
   }
@@ -154,9 +175,18 @@ Responsive Intro Section */
   }
   .contact-main {
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     align-items: center;
+    
+  }
+  .my-img {
+   
+   width: 200px;
+   height: 290px;
+  }
+  .send-btn{
+    margin-bottom: 30px;
   }
   .contact-section {
     margin-top: 100px;
@@ -184,6 +214,10 @@ Responsive Intro Section */
   }
   .right-social-icons {
     margin-top: -50px;
+  }
+  footer{
+    margin-top: 40px;
+    
   }
 }
 @media (max-width: 800px) and (min-width: 500px) {
@@ -256,3 +290,124 @@ Responsive Intro Section */
     height: 100px;
   }
 }
+
+nav a {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+nav a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.5px; /* Make it thinner */
+  bottom: 0;
+  left: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(93, 5, 255, 1) 0%,
+    rgba(93, 21, 253, 1) 8%,
+    rgba(93, 209, 226, 1) 100%,
+    rgba(45, 109, 122, 1) 100%
+  ); /* Gradient color for dark mode */
+  background-size: 200% 100%;
+  transition: width 0.5s ease-out, left 0.5s ease-out, background-position 0.5s ease-out;
+}
+
+nav a.light::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.5px; /* Make it thinner */
+  bottom: 0;
+  left: 50%;
+  background: linear-gradient(to right, #da918a, #f9f0f0); /* Gradient color for light mode */
+  background-size: 200% 100%;
+  transition: width 0.5s ease-out, left 0.5s ease-out, background-position 0.5s ease-out;
+}
+
+nav a:hover::before,
+nav a.active-link::before {
+  width: 150%; /* Extend the width */
+  left: -25%;
+  background-position: 100% 0;
+}
+
+/* No line for social icons */
+nav a.social-icon::before {
+  content: none;
+}
+@keyframes slideFadeInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFadeOutToLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slideFadeInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFadeOutToRight {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.slide-fade-in-right {
+  animation: slideFadeInFromRight 1s forwards;
+}
+
+.slide-fade-out-left {
+  animation: slideFadeOutToLeft 1s forwards;
+}
+
+.slide-fade-in-left {
+  animation: slideFadeInFromLeft 1s forwards;
+}
+
+.slide-fade-out-right {
+  animation: slideFadeOutToRight 1s forwards;
+}
+
+
+@keyframes appear {
+  from {
+    opacity: 0.5;
+    transform: translateY(100px); /* Start from below */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px); /* End at the original position */
+  }
+}
+
