@@ -235,7 +235,7 @@ const Projects = () => {
                   </div>
                 ))}
               </div>
-              <div className="flex justify-around text-3xl mt-5">
+              <div className="flex justify-around text-3xl mt-5 project-det-btn">
                 <div
                   className={`${
                     changeMode ? "image-container" : "light-image-container"

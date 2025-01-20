@@ -35,7 +35,7 @@ const About = () => {
   return (
     <>
       
-        <div className='flex justify-center items-center flex-col '>
+        <div className='flex justify-center items-center flex-col About-main-section'>
           <h1 className={`text-7xl bg-clip-text ${changeMode ? 'text-transparent dark-gradient-text' : 'light-heading'}`}>About Me</h1>
           <p className='text-xl'>My Introduction</p>
         </div>

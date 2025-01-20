@@ -120,6 +120,13 @@ Responsive Intro Section */
   .contact-section h1 {
     font-size: 30px;
   }
+  .project-section{
+    gap: 20px;
+    padding-top: 100px;
+  }
+  .skill-section{
+    gap: 20px;
+  }
   .contact-section{
     margin: 5px 10px;
   }
@@ -222,6 +229,12 @@ Responsive Intro Section */
   .logo-name{
     display: none;
   }
+  .project-det-btn{
+    gap: 20px;
+  }
+.about-section-main{
+  gap: 20px;
+}
 }
 @media (max-width: 800px) and (min-width: 500px) {
   .circle-fill,

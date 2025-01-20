@@ -206,13 +206,13 @@ const HomePage = () => {
             <div ref={(el) => (sectionRefs.current.Home = el)} className='flex justify-around items-center py-8 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section' id='home-container'>
                 <Intro />
             </div>
-            <div ref={(el) => (sectionRefs.current.About = el)} className='flex justify-center items-center flex-col py-20 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap gap-20 about-section-main' id='about-container'>
+            <div ref={(el) => (sectionRefs.current.About = el)} className='flex justify-center items-center flex-col py-20  lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap gap-20 about-section-main' id='about-container'>
                 <About />
             </div>
             <div ref={(el) => (sectionRefs.current.Skills = el)} className="flex justify-around items-center py-32 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section" id="skills-container">
                 <Skills />
             </div>
-            <div ref={(el) => (sectionRefs.current.Projects = el)} className="flex justify-around items-center py-20 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section" id="projects-container">
+            <div ref={(el) => (sectionRefs.current.Projects = el)} className="flex justify-around items-center py-20 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap " id="projects-container">
                 <Projects />
             </div>
             <div ref={(el) => (sectionRefs.current.Contact = el)} className="flex justify-around items-center py-18 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section my-16" id="contact-container ">
