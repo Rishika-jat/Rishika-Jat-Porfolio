@@ -215,7 +215,7 @@ const HomePage = () => {
             <div ref={(el) => (sectionRefs.current.Projects = el)} className="flex justify-around items-center py-20 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap " id="projects-container">
                 <Projects />
             </div>
-            <div ref={(el) => (sectionRefs.current.Contact = el)} className="flex justify-around items-center py-18 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section my-16" id="contact-container ">
+            <div ref={(el) => (sectionRefs.current.Contact = el)} className="flex justify-around items-center py-14 lg:px-30 xl:px-56 md:px-20 sm:px-20 md:flex-wrap lg:flex-nowrap xl:flex-nowrap hero-section contact-container-section my-16" id="contact-container ">
                 <Contact />
             </div>
 

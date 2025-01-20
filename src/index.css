@@ -108,6 +108,7 @@ Responsive Intro Section */
     padding: 0;
     gap: 30px;
   }
+ 
   .intro-section {
     width: 100%;
     align-items: center;
@@ -128,6 +129,7 @@ Responsive Intro Section */
     gap: 20px;
   }
   .contact-section{
+
     margin: 5px 10px;
   }
  
@@ -224,6 +226,11 @@ Responsive Intro Section */
   }
   footer{
     margin-top: 40px;
+    
+  }
+  .contact-container-section{
+    margin-top: -100px;
+    padding: 0px;
     
   }
   .logo-name{
